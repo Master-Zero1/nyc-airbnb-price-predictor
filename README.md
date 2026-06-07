@@ -420,6 +420,25 @@ print(f"Predicted price: ${price_dollars[0]:.2f}/night")
 
 ---
 
+## 🤖 A Note on AI-Assisted Development
+
+The Streamlit frontend (`app.py`) was built with Claude (Anthropic) as a 
+coding assistant. My focus for this project was the ML pipeline — data 
+engineering, feature engineering, model tuning, and explainability — not 
+web development.
+
+I made all design and feature decisions for the app (SHAP per-prediction
+breakdown, borough comparison, what-if simulator), understood every 
+component, and debugged issues like Streamlit's session state resets 
+independently.
+
+Using AI tooling to move fast on out-of-scope work while staying focused on 
+the core problem is — in my view — the correct engineering decision.
+The ML pipeline, feature engineering, hyperparameter tuning, and SHAP 
+analysis are entirely my own work.
+
+---
+
 <div align="center">
 
 **Built by [master-zero1](https://github.com/master-zero1)**  
