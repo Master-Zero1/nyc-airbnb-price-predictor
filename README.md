@@ -442,6 +442,7 @@ analysis are entirely my own work.
 <div align="center">
 
 **Built by [master-zero1](https://github.com/master-zero1)**  
+**LIVE DEMO -> https://master-zero1-nyc-airbnb-price-predictor.streamlit.app/
 *NYC Airbnb Data · April 2026 Scrape · XGBoost (tuned) · R² = 0.768 · $188 avg error*
 
 </div>
