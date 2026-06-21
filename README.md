@@ -206,7 +206,7 @@ Key findings:
 - `bedrooms` - second strongest predictor
 - `neighbourhood_cleansed` - location (target encoded across 200+ neighbourhoods)
 - `room_type` - entire homes command a significant price premium
-- `bathrooms_per_guest` - engineered feature in top 10 ✅
+- `bathrooms_per_guest` - engineered feature in top 10 
 - Note: SHAP (above) reveals `neighbourhood_cleansed` has *greater overall impact* than `accommodates` when measured by actual prediction shift - a nuance the built-in importance score misses.
 
 ---
@@ -423,19 +423,9 @@ print(f"Predicted price: ${price_dollars[0]:.2f}/night")
 ## A Note on AI-Assisted Development
 
 The Streamlit frontend (`app.py`) was built with Claude (Anthropic) as a 
-coding assistant. My focus for this project was the ML pipeline - data 
-engineering, feature engineering, model tuning, and explainability - not 
+coding assistant. My focus for this project was the ML pipeline/data analysis 
+engineering, feature engineering, model tuning, and explainability,not on
 web development.
-
-I made all design and feature decisions for the app (SHAP per-prediction
-breakdown, borough comparison, what-if simulator), understood every 
-component, and debugged issues like Streamlit's session state resets 
-independently.
-
-Using AI tooling to move fast on out-of-scope work while staying focused on 
-the core problem is - in my view - the correct engineering decision.
-The ML pipeline, feature engineering, hyperparameter tuning, and SHAP 
-analysis are entirely my own work.
 
 ---
 
